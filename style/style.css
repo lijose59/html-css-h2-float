@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    --blue: #93B5C9;
+    --wine: #AB2849 ;
+}
+nav{
+    height: 10vh;
+    background: var(--blue);
+}
+header{
+    height: 30vh;
+    background: var(--wine);
+    margin-bottom: 2vh;
+}
+div > *{
+    margin-bottom: 2vh;
+    float: left;
+    height: 10vh;
+    width: 80vw;
+    background: var(--wine);
+}
+footer{
+    clear: both;
+    height: 10vh;
+    background: var(--wine);
+    margin: 0 25px 8px 25px;    
+}
